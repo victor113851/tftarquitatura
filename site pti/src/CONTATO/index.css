@@ -1,0 +1,85 @@
+.home  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Discord';
+    
+}
+
+
+.home header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px
+  
+}
+
+.home header nav {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.home header nav a {
+     font-family: Poppins;
+     font-size: 18px
+     
+
+}
+
+a{
+    text-decoration: none;
+    color:black     
+    
+}
+
+.home body main p {
+    display: flex;
+    flex-direction: column;
+}
+
+
+label,input [type=text], input[type=number] select, textarea {
+    font-size: 20px;
+    padding: 5px;
+}
+
+button{
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: justify; 
+    width: 600px;
+    margin: 20px;
+    font-family: Poppins;
+    
+}
+
+form div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    
+}
+
+form label{
+    display: inline-block;
+    text-align: right;
+    margin-right: 20px;
+    width: 200px;
+    
+    
+}
+
